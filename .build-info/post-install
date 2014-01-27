@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -d ${3}/bin ];then
+  mkdir ${3}/bin
+fi;
+
+ln -sr ${3}/usr/bin/tcsh ${3}/bin/tcsh
+ln -sr ${3}/usr/bin/tcsh ${3}/bin/csh
