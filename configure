@@ -4277,7 +4277,7 @@ return tgetent ();
   return 0;
 }
 _ACEOF
-for ac_lib in '' termlib termcap curses ncurses; do
+for ac_lib in '' termlib termcap curses ncurses tinfo; do
   if test -z "$ac_lib"; then
     ac_res="none required"
   else

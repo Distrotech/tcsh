@@ -309,7 +309,7 @@ fi
 dnl Checks for libraries
 AC_SEARCH_LIBS(crypt, crypt)
 AC_SEARCH_LIBS(getspnam, sec)
-AC_SEARCH_LIBS(tgetent, termlib termcap curses ncurses)
+AC_SEARCH_LIBS(tgetent, termlib termcap curses ncurses tinfo)
 AC_SEARCH_LIBS(gethostbyname, nsl)
 AC_SEARCH_LIBS(connect, socket)
 AC_SEARCH_LIBS(catgets, catgets)
